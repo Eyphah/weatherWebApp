@@ -1,0 +1,8 @@
+table.comparison-table tr.favorite {
+    background-color: var(--third-color);
+}
+
+table.comparison-table tr.favorite > th {
+    color: black;
+    background-color: var(--third-color);
+}

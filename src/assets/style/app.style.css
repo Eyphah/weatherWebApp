@@ -1,0 +1,30 @@
+#panel {
+    width: fit-content;
+    margin-inline: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    width: 90vw;
+    margin-inline: auto;
+}
+
+select {
+    border: none;
+    padding: 3px 5px;
+    text-align: center;
+    font-size : larger;
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    border-radius: 5px;
+
+    animation: .2s all ease-in-out;
+}
+
+select:hover {
+    background-color: var(--second-color);
+    animation: .2s all ease-in-out;
+}

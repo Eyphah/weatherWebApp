@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    margin: 20px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+}
+
+table caption {
+    font-style: italic;
+}
+
+table > thead {
+    background: var(--first-color);
+    text-transform: capitalize;
+    color: var(--fourth-color)
+}
+
+table tbody th {
+    background: var(--second-color);
+    color: var(--fourth-color)
+}
+
+
+table th,
+table td {
+    border: 1px solid #0002;
+    text-align: center;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+table td {
+    font-family: monospace;
+}
+

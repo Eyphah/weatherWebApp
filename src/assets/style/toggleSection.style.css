@@ -1,0 +1,11 @@
+.toggle-section-button {
+    margin-inline: 25%;
+    width: 50%;
+}
+
+.toggle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}

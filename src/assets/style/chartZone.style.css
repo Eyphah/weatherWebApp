@@ -1,0 +1,37 @@
+div.chartZone {
+    width : 800px;
+    height : 600px;
+    margin : auto;
+}
+div.buttons {
+    display : flex;
+    flex-direction: row;
+    gap: 10px;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+button {
+    border: none;
+    flex : 1;
+    margin : 5px 10px;
+    font-size : 16px;
+
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    padding: 5px;
+    border-radius: 5px;
+
+    animation: .5s all ease-in-out;
+}
+
+button:hover {
+    background-color: var(--second-color);
+    animation: .5s all ease-in-out;
+}
+
+
+button:focus {
+    animation: .5s all ease-in-out;
+    background-color: var(--third-color);
+}
